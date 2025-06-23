@@ -33,9 +33,9 @@ CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的�
 # ====== 全局可配置参数（可直接在此处修改） ======
 USER_NAME = "natter"         # 用户名
 UUID = "7d6a9de8-f18e-47a8-860e-89e625db09f3"                     # UUID，留空则自动生成
-PORT = 49999                   # Vmess端口，留空或0则自动生成
-DOMAIN = "io.natter.ip-ddns.com" # 域名，留空则自动获取
-CF_TOKEN = "eyJhIjoiMDEyODE3NzUyZjFmMjliOWNiMTk4OWQ0M2FmZTVlODkiLCJ0IjoiMzZlNGFjZTAtZjZlZC00OTk4LWJiMTQtMzM2YjI0MmI4MDczIiwicyI6IlltSmxaVEkwWW1FdFpqZzBOeTAwTm1FMUxUazFNRGN0T1RWall6STVaVFV4WTJSaSJ9"                 # Cloudflare Token，留空则用Quick Tunnel
+PORT = 49199                   # Vmess端口，留空或0则自动生成
+DOMAIN = "order.nord.ddns-ip.net" # 域名，留空则自动获取
+CF_TOKEN = "eyJhIjoiM2QwODRhZjJjMWE2Mzg5ODQ0MDU3MzUyMWFmYzE1MGYiLCJ0IjoiMzAxZTcyN2QtZjAzYi00MDU4LTlhM2ItNWI4ODY2ZWQ0YmQ4IiwicyI6IlpEbG1PRFUxT1dZdE9HRTVZeTAwWmpRNUxXSmpZbU10TmpZMVl6QmlNbVV5TVRkaiJ9"                 # Cloudflare Token，留空则用Quick Tunnel
 # =========================================
 
 # 添加命令行参数解析
